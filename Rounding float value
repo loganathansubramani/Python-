@@ -1,0 +1,4 @@
+x=float(input())
+y=float(input())
+z=float(x+y)
+print(round(z,3))
