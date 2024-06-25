@@ -1,0 +1,3 @@
+str1=input()
+sep=":"
+print(sep.join(str1))
