@@ -1,0 +1,7 @@
+a=input()
+if a.lower()=="n":
+ print("no")
+elif a.lower()=="y":
+ print("yes")
+else:
+    print("invalid")
