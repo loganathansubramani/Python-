@@ -1,0 +1,5 @@
+list1=(input().split())
+list2=(input().split())
+list3=list1+list2
+for item in list3:
+    print(item ,end=" ")
