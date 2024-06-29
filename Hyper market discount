@@ -1,0 +1,5 @@
+a=int(input())
+if a>2000 :
+    print(int(a*90)/100))
+else:
+ print(a)
