@@ -1,0 +1,5 @@
+a=list(map(int,input().split()))
+a.append(10)
+a.append(20)
+a.append(30)
+print(*a)
