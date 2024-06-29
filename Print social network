@@ -1,0 +1,9 @@
+a=input().lower()
+b="undefined"
+if a=="t":
+    b=("twitter")
+elif a=="w":
+    b=("whatsapp")
+elif a=="f":
+    b=("facebook")
+print(b)
