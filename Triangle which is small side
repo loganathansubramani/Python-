@@ -1,0 +1,5 @@
+a=[]
+for ctr in range(3):
+    b=int(input())
+    a.append(b)
+print(min(a))
