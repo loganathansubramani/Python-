@@ -1,0 +1,9 @@
+a=input().upper()
+if a=="R":
+    print("RED")
+elif a=="G":
+    print("GREEN")
+elif a=="B":
+    print("BLUE")
+else :
+    print("UNDEFINED")
