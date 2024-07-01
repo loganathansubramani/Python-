@@ -1,0 +1,6 @@
+a=int(input())
+sum1=0
+for st in range(a):
+    b=int(input())
+    sum1+=b
+print(sum1)
