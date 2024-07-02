@@ -1,0 +1,22 @@
+a=int(input())
+b=int(input())
+a1=a
+b1=b
+odd=1
+if a%2==0 and b%2==0:
+    odd=0
+while a1<=b or b1>=a:
+    if odd:
+        while a1%2==0:
+         a1+=1
+        if a1<=b:
+         print(a1,end=" ")
+        odd=0
+    if not odd:
+        while b1%2==1:
+         b1-=1
+        if b1>=a:
+         print(b1,end=" ")
+        odd=1
+    a1+=1
+    b1-=1
