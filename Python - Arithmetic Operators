@@ -1,0 +1,6 @@
+a = 184
+b = 2
+c = 3
+d = 2
+e = 4
+print(a + c / b - d / e)  # This will print 185.0
