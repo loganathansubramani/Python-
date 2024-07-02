@@ -1,0 +1,5 @@
+a=int(input())
+while a%10==0 and a!=0:
+    a=int(a/10)
+b=str(a)
+print(b[::-1])
