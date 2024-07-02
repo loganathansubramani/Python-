@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=a
+run=1
+while run:
+    print(c,end=" ")
+    if c%b==0:
+        run=0
+    else:
+        c+=a
