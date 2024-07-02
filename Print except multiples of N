@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=int(input())
+for st in range(a,b+1):
+    if st%c!=0:
+        print(st,end=" ")
