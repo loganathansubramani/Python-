@@ -1,0 +1,7 @@
+a=int(input())
+l=0
+for st in range(a):
+    c=int(input())
+    if c>l:
+     l=c
+print(l)
