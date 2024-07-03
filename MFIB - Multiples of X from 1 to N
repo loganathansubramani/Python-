@@ -1,0 +1,3 @@
+a,b=[int(val) for val in input().split()]
+for st in range(b,a+1,b):
+    print(st,end=" ")
