@@ -1,0 +1,2 @@
+x,y,z=[int(boll) for boll in input().split()]
+print(x if x>=y and x>=z else(y if y>=z else z))
