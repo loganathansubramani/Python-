@@ -1,0 +1,5 @@
+a=list(map(int,input().split()))
+for st in a:
+    print(st,end=" ")
+    if st==10:
+        break 
