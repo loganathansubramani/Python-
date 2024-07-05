@@ -1,0 +1,5 @@
+a=int(input())
+if a>59:
+    print("SENIOR")
+else:
+    print("NOTSENIOR")
