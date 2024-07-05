@@ -1,0 +1,5 @@
+a=input().strip()
+b="aeiouAEIOU"
+for st in a:
+    if st not in b:
+        print(st,end="")
