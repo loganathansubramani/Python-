@@ -1,0 +1,5 @@
+a=[100,200,300]
+a.append(400)
+a.append(500)
+for sr in a:
+    print(sr,end=" ")
