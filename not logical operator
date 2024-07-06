@@ -1,0 +1,5 @@
+N=100
+if not(N == 100 or N == 200 or N == 300): 
+ print ("YES") 
+else: 
+ print ("NO")
