@@ -1,0 +1,5 @@
+values = {999}
+values.add(999) 
+values.add(999) 
+for v in values: 
+    print (v, end=" ")
