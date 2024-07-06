@@ -1,0 +1,6 @@
+values = [1,2,3,4,5]
+values.append(6) 
+values.append(7) 
+values.append(10) 
+for v in values: 
+    print (v, end=" ")
