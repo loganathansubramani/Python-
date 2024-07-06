@@ -1,0 +1,6 @@
+values = [2,34,67,3] 
+values.append(400)
+values.append(500)
+values.sort(reverse=True)
+for v in values: 
+    print(v, end=" ")
