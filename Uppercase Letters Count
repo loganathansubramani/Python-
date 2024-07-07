@@ -1,0 +1,6 @@
+a=input()
+b=0
+for sr in a:
+    if sr.isupper():
+        b+=1
+print(b)
