@@ -1,0 +1,7 @@
+a=input()
+b=input()
+for st in a:
+    if b not in st:
+        print(st,end="")
+    else:
+        break
