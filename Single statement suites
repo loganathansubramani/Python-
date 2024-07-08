@@ -1,0 +1,3 @@
+price=200
+moneyinhand=200 
+if price <= moneyinhand: print ("BUY")
