@@ -1,0 +1,7 @@
+a=int(input())
+b={}
+for _ in range(a):
+    name,run=input().split(',')
+    b[name]=int(run)
+c=max(b,key=b.get)
+print(c)
