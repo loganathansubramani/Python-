@@ -1,0 +1,8 @@
+loopcount=9
+counter=0
+while(loopcount): 
+    counter+=10 
+    loopcount-=1 
+else: 
+        counter+=10 
+print (counter)
