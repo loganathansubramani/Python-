@@ -1,0 +1,5 @@
+a=input()
+b="aeiouAEIOU"
+for t in a:
+    if t not in b:
+        print(t,end="")
