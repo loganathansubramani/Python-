@@ -1,0 +1,5 @@
+a=list(map(int,input().split(" ")))
+s=1
+for st in a:
+    s*=st
+print(s)
