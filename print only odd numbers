@@ -1,0 +1,4 @@
+a=list(map(int,input().split()))
+for st in a:
+    if st%2==1:
+        print(st,end=" ")
