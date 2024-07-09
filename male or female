@@ -1,0 +1,7 @@
+a=input()
+if a=='m' or a=='M':
+    print("MALE")
+elif a=='f' or a=='F':
+    print("FEMALE")
+else :
+    print("UNKNOWN")
