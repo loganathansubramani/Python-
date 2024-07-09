@@ -1,0 +1,7 @@
+strval = '''Apple Banana 
+Carrot
+Doll Elephant
+Fish Gateway
+Hotspot Internet
+Jack'''
+print (strval)
