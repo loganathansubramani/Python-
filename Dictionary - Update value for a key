@@ -1,0 +1,3 @@
+marks = {"Physics":45, "Maths":30} 
+marks["Physics"]=90
+print(marks["Physics"]+marks["Maths"])
