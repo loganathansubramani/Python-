@@ -1,0 +1,7 @@
+numbers = [100,200,300,400,500] 
+x=1
+y=2
+del numbers[x] 
+del numbers[y] 
+for num in numbers: 
+  print (num,end=" ")
