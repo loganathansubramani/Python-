@@ -1,0 +1,3 @@
+studentages={"Leena":15,"Arun":12}
+print (studentages["Leena"], end=" ") 
+print (studentages["Arun"], end=" ")
