@@ -1,0 +1,6 @@
+numbers = [100, 400, 900] 
+a=[200,500,600,1000]
+numbers+=a
+numbers.sort()
+for num in numbers: 
+ print (num, end=" ")
