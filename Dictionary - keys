@@ -1,0 +1,7 @@
+a={}
+b=input().split()
+for i in range(0,len(b),2):
+    a[b[i]]=b[i+1]
+for st in a:
+    if st.startswith("k"):
+        print(a[st])
