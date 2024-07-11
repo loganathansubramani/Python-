@@ -1,0 +1,6 @@
+stockcount = {"ABB": 15000, "TCS": 1200, "Google": 1000, "NIIT": 4000}
+del stockcount["ABB"]
+del stockcount["TCS"]
+del stockcount["NIIT"]
+for st in stockcount.keys():
+    print(stockcount[st],end=" ")
