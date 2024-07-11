@@ -1,0 +1,5 @@
+a={"Mango":"good","goa":"nice"}
+a.clear()
+a["Loga"]="Success"
+for st in a.keys():
+    print(st+" "+a[st])
