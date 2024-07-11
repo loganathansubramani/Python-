@@ -1,0 +1,8 @@
+a={}
+b=input().split(" ")
+for st in range(0,len(b),2):
+    a[b[st]]=b[st+1]
+if "Mobile" in a:
+    print("YES")
+else :
+    print("NO")
