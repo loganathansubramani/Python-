@@ -1,0 +1,4 @@
+my_string = "geeksforgeeks"
+i = "i"
+while i in my_string: 
+    print(i, end =" ") 
